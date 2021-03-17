@@ -1,0 +1,92 @@
+.right_div{
+    flex:7;
+    margin-top: -22px;
+    overflow: none;
+}
+
+.chat_area_heading{
+    height:13vh;
+    background-color: rgb(40, 151, 151);
+}
+.chat_area_heading_text{
+    padding-top: 15px;
+}
+.input_div{
+    border-radius: 25px;
+    border:2px solid grey;
+    height:60px;
+    width:90%;
+    border-color: grey;
+    display: flex;
+    
+}
+.div_with_input_mic{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 5px;
+}
+.input_message{
+    border: none; 
+    outline: none;
+    width:500px;
+    height:30px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.chats{
+    height: 79vh;
+    max-height: 79vh;
+    overflow-y: auto; 
+    overflow-x: none;
+    width: 100%;
+    position: relative;
+    top: -2vh;
+}
+.sentiment_emoji,.camera_emoji,.attachfile_emoji
+{
+    color:grey;
+    transform: scale(2.0);   
+}
+.sentiment_emoji{
+    margin-left: 20px;
+    margin-top:20px;
+}
+.camera_emoji{
+    margin-right: 25px;
+    margin-top:20px;
+}
+.attachfile_emoji{
+    margin-right: 35px;
+    margin-top:20px;
+}
+.mic{
+    width:55px;
+    height: 55px;
+    background-color: rgb(62, 145, 134);
+    border-radius: 30px;
+    
+}
+.mic_emoji{
+    transform: scale(2.0);
+    color:white;
+    margin-left: 15px;
+    margin-top:14px;
+}
+.message_box{
+    background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+    width: fit-content;
+    height: fit-content;
+    word-wrap: break-word;
+    max-width: 400px;
+    font-size:30px;
+    border-radius: 10px;
+    padding:10px;
+    align-self: flex-end;
+    margin-top: -15px;
+}
+.doneicon{
+    margin-top: 10px;
+}
